@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "First Chrome Extension",
-  "version": "0.1",
+  "version": "1.0",
   "content_scripts": [
     {
       "matches": [
-        "https://medium.com/*"
+        "<all_urls>"
       ],
       "js": ["content.js"]
     }
